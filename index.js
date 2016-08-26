@@ -1,7 +1,7 @@
 var pageLoadWait = 20;
 var timeGap = 300;
 
-var message = 'Not A Human Being. ';
+var message = 'buy this domain. ';
 var extraTimeToAdd = message.length * 100 + pageLoadWait;
 
 var displaymessage = function() {
