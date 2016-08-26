@@ -1,7 +1,7 @@
 var pageLoadWait = 20;
 var timeGap = 300;
 
-var message = 'i am not a human. ';
+var message = 'Not A Human Being. ';
 var extraTimeToAdd = message.length * 100 + pageLoadWait;
 
 var displaymessage = function() {
