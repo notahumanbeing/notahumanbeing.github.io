@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "bitwonder";
     src: url("assets/bitwonder.ttf");
 }
@@ -8,13 +8,29 @@
 	height: 50px;
 	font-size: 50px;
 	text-align: center;
-	position:absolute; /*it can be fixed too*/
+	position:absolute; it can be fixed too
 	left:0; right:0;
 	top:0; bottom:0;
 	margin:auto;
 
-	/*this to solve "the content will not be cut when the window is smaller than the content": */
-	/*max-width:100%;*/
-	/*max-height:100%;*/
 	overflow:auto;
+}*/
+
+html, body {
+  height: 100%;
+	font-family: "bitwonder", Tahoma;
+  font-family: Helvetica, Verdana, Tahoma;
+  width: 100%;
+  display: table;
+  text-align: center;
 }
+
+.content_container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#contributions {
+	font-size: 30vw;
+}
+
