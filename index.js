@@ -84,7 +84,7 @@ var getMeWhatIWant = function(response) {
   $("#viewer").html("");
   $("#contributions").html(0);
   globcontributions = contributions;
-  setTimeout(showCountUp, 1000);
+  setTimeout(showCountUp, 500);
 }
 
 var intevalId;
