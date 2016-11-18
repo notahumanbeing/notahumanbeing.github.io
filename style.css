@@ -23,6 +23,8 @@ html, body {
   width: 100%;
   display: table;
   text-align: center;
+  background-color: black;
+  color:white;
 }
 
 .content_container {
